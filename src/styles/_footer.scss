@@ -1,0 +1,156 @@
+.footer {  
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+
+        padding-top: 1rem;
+
+        .contact {
+            font-size: 15px;
+            text-decoration: none;
+            color: $color-white;
+            letter-spacing: .06rem;
+            font-weight: 200;
+          
+            margin: 2px;
+
+            transition: all .5s;
+
+            &:hover {
+                color: $color-red;
+            }
+        }
+
+        .about__title,
+        .address__title,
+        .programs__title {
+            margin: 2px;
+
+            text-decoration: none;
+            color: $color-red;
+            font-size: 20px;
+            font-weight: bold;
+          
+            transition: all .5s;
+        }
+
+        &__programs{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__address {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__icons {
+            display: flex;
+            flex-direction: column;
+
+            padding-top: 1rem;
+            gap: 1.5rem;
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                gap: .5rem;    
+                
+                &__f,
+                &__f1 {
+                    border: 2px solid $color-white;
+                    border-radius: 50%;
+
+                    background-color: $color-white;
+                  
+                    padding: 4px;
+
+                    transition: all .5s;
+
+                    &:hover {
+                        background-color: $color-red;
+                    }
+                }
+
+                &__f1 {
+                    padding: 6px 5px;
+                }
+            }
+
+            .button {
+                display: flex;
+                flex-direction: row;
+                gap: .5rem;
+            }
+        }
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: .5rem;
+        justify-content: center;
+
+        img {
+            opacity: 0.6;
+            height: 5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {  
+
+        .contacts {
+            gap: 2rem;
+    
+            .contact {
+                font-size: 11px;
+                letter-spacing: normal;
+            }
+
+            .about__title,
+            .address__title,
+            .programs__title {
+                font-size: 16px;
+            }
+
+            &__icons {
+               
+                .icons {
+                    &__f,
+                    &__f1 {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+
+                .button {
+                    img {
+                        height: 25px;
+                        width: 78px;
+                    }
+                }
+            }
+        }
+
+        .logo {
+            img {
+                height: 3rem;
+            }
+            .contact {
+                font-size: 11px;
+                letter-spacing: normal;
+            }
+        }
+    }       
+}
+

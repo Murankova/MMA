@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMA_CLUB</title>
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/styles/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__head container">
+            <div class="logo" id="btnlogo">
+                <a href="#"><img src="../src/img/logo-home.png" alt="academy_mma"></a>
+            </div>
+            <div class="header__navigation">
+                <nav class="navigation">
+                    <ul class="navigation__lists">
+                        <li class="navigation__list"><a class="navigation__link" href="">Главная</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="../src/pages/programs.html">Наши программы</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="" id="bottom2">Залы</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="">Тренеры</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="">MMA Shop</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="">Расписание</a></li>
+                        <li class="navigation__list"><a class="navigation__link" href="">Контакты</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                      </div>
+                </nav>
+            </div>
+            <div class="search">
+                <a href="#"></a>
+                <form class="search__input" method="post" action="/search/index.php">
+                    <div class="search__box">
+                        <input class="top__search" type="text"  name="search" placeholder="Поиск">
+                        <input class="sub__search" type="image" src="../src/img/icons/search.png" alt="Submit">
+                    </div>            
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="wrapper">
+        <div class="wrapper__banner">
+            <div class="banner container">
+                <div class="banner__title">
+                    <h1 id="bottom1">КАЖДЫЙ МОМЕНТ - ВОЗМОЖНОСТЬ СОВЕРШЕНСТВОВАТЬСЯ</h1>
+                    <h4>ДОСТИГАЙТЕ ПОБЕД В ACADEMY MMA</h4>
+                    <button class="btn__white"><a href="#"> Присоединяйся</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="page__content">
+            <div class="section1">
+                <div class="page__title">
+                    <h2>НАШИ ПРОГРАММЫ</h2>
+                    <hr size="3" width="242px">
+                </div>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="page__promo1">
+                                <div class="page__promo1__image">
+                                    <img src="../src/img/Program1.jpg" alt="academy_mma">
+                                </div>
+                                <div class="page__promo1__descr">
+                                    <div class="title">
+                                        <h5>Бокс(Фитбокс)</h5>
+                                    </div>
+                                    <div class="text">
+                                        <p>Классический бокс и фитнес-бокс в ACADEMY MMA это - отличные условия для тренировок, новая материальная база, профессиональный тренерский состав!</p>
+                                    </div>
+                                </div>   
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="page__promo2">
+                                <div class="page__promo2__image">
+                                    <img src="../src/img/Program2.jpg" alt="academy_mma">
+                                </div>
+                                <div class="page__promo2__descr">
+                                    <div class="title">
+                                        <h5>MMA - Смешанные единоборства</h5>
+                                    </div>
+                                    <div class="text">
+                                        <p>Ударная техника в стойке и партере</p>
+                                        <p>Бросково-болевая техника</p>
+                                        <p>Crossfit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="swiper-slide">
+                            <div class="page__promo3">
+                                <div class="page__promo3__image">
+                                    <img src="../src/img/Program3.jpg" alt="academy_mma">
+                                </div>
+                                <div class="page__promo3__descr">
+                                    <div class="title">
+                                        <h5>Детские тренировки</h5>
+                                    </div>
+                                    <div class="text">
+                                        <p>Общая физическая подготовка с элементами боевых искусств</p>
+                                        <p>Развитие концентрации и координации</p>
+                                        <p>Умение постоять за себя</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="page__promo4">
+                                <div class="page__promo4__image">
+                                    <img src="../src/img/Program4.jpg" alt="academy_mma">
+                                </div>
+                                <div class="page__promo4__descr">
+                                    <div class="title">
+                                        <h5>EMS-тренировки</h5>
+                                    </div>
+                                    <div class="text">
+                                        <p>EMS (Electrical muscle stimulation, электромистимуляция мышц) - <br> метод местного импульсного воздействия на мышцы с помощью низкочастотного электрического тока</p> <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                    <div class="swiper-pagination"></div>     
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="page__title">
+                    <h2>ТРЕНЕРЫ</h2>
+                    <hr size="3" width="120px">
+                </div>
+                <div class="page__popular container">
+                    <div class="page__popular__1">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener1.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Рустам Мохаммад</div>
+                    </div>
+                    <div class="page__popular__2">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener2.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Александр Ковалев</div>
+                    </div>
+                    <div class="page__popular__3">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener3.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Александр Каделя</div>
+                    </div> 
+                    <div class="page__popular__4">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener4.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Павел Масальский</div>
+                    </div>
+                    <div class="page__popular__5">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener5.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Егор Пархимчик</div>
+                    </div>
+                    <div class="page__popular__6">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener6.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Виктор Макаренко</div>
+                    </div>
+                    <div class="page__popular__7">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener7.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Кирилл Яновский</div>
+                    </div>
+                    <div class="page__popular__8">
+                        <div class="page__popular__image">
+                            <a href="#">
+                                <img src="../src/img/Trener8.jpg" alt="academy_mma">
+                            </a>
+                        </div>
+                        <div class="page__popular__descr">Анна Крашенинникова</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="page__title">
+                    <h2>АБОНЕМЕНТЫ</h2>
+                    <hr size="3" width="177px">
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>01.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card1.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент легкий старт</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Сопровождение тренера</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Кальварийская</p>
+                        </div>
+                        <div class="card__price">
+                        99 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>02.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card2.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Фитбокс</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Время входа с 14:00 до 16:00 (будни)</p>
+                            <p>Без приостановки абонемента 3 раза</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Малинина</p>
+                        </div>
+                        <div class="card__price">
+                        65 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>03.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card3.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Я в форме</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Занятия в мини-группе</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Кальварийская</p>
+                        </div>
+                        <div class="card__price">
+                        145 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>04.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card4.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Вечерний</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Сопровождение тренера 2 раза в неделю</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Малинина</p>
+                        </div>
+                        <div class="card__price">
+                        120 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>05.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card5.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Free Time</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Безлимитное посещение 24/7</p>
+                            <p>Занятия в мини-группе 3 раза в неделю</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Кальварийская</p>
+                        </div>
+                        <div class="card__price">
+                        99 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>06.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card6.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Пробный</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Сопровождение тренера</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Малинина, 35</p>
+                        </div>
+                        <div class="card__price">
+                        25 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>07.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card7.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент Разовый</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Сопровождение тренера</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Кальварийская</p>
+                        </div>
+                        <div class="card__price">
+                        35 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__number">
+                            <h6>08.</h6>  
+                        </div>
+                        <div class="card__image">
+                            <img src="../src/img/card8.png" alt="academy_mma">
+                        </div>
+                        <div class="card__title">
+                            <h3>Абонемент легкий старт</h3>
+                        </div>
+                        <div class="card__description">
+                            <p>Посещение без ограничений 24/7</p>
+                            <p>Сопровождение тренера</p>
+                            <p>Доступ к приложению Academy MMA Belarus</p>
+                            <p>Абонемент в Зал-Кальварийская</p>
+                        </div>
+                        <div class="card__price">
+                        99 руб/мес
+                        </div>
+                        <button class="btn__red"><a href="#"> Купить </a></button>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="section4">
+                <div class="page__title">
+                    <h2>МЕРОПРИЯТИЯ</h2>
+                    <hr size="3" width="187px">
+                </div>
+                <div class="foto">
+                    <div class="item it1"></div>
+                    <div class="item it2"></div>
+                    <div class="item it3"></div>
+                    <div class="item it4"></div>
+                    <div class="item it5"></div>
+                    <div class="item it6"></div>
+                    <div class="item it7"></div>
+                    <div class="item it8"></div>
+                    <div class="item it9"></div>
+                    <div class="item it10"></div>
+                    <div class="item it11"></div>
+                    <div class="item it12"></div>
+                    <div class="item it13"></div>
+                    <div class="item it14"></div>
+                    <div class="item it15"></div>
+                    <div class="item it16"></div>
+                    <div class="item it17"></div>
+                    <div class="item it18"></div>
+                    <div class="item it19"></div>
+                </div>
+
+              </div> 
+
+            <div class="section5">
+                <div class="page__title">
+                    <h2>ЗАЛЫ</h2>
+                    <hr size="3" width="73px">
+                </div>
+                <div class="page__address container">
+                    <div class="page__address__1">
+                        <div class="name">Зал - Кальварийская, 4</div>
+                        <div class="location">
+                            <div class="location__title">г.Минск, ул. Кальварийская, 4 - 139</div>
+                        </div>
+                        <div class="phone">
+                            <a class="phone__number" href="tel:+375 29 176 58 59">+ 375 (29) 176 58 59</a>
+                        </div>
+                    </div>
+                    <div class="page__address__2">
+                        <div class="name">Зал - Малинина, 35</div>
+                        <div class="location">
+                            <div class="location__title">г.Минск, ул. Малинина, 35</div>
+                        </div>
+                        <div class="phone">
+                            <a class="phone__number" href="tel:+375 29 176 58 59">+ 375 (29) 125 58 59</a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contacts container">
+            <div class="contacts__programs">
+                <a class="programs__title" href="../src/pages/programs.html">Наши программы</a>
+                <a class="contact" href="#">Бокс</a>
+                <a class="contact" href="#">Фитбокс</a>
+                <a class="contact" href="#">ММА - смешанные единоборства</a>
+                <a class="contact" href="#">Детские тренировки</a>
+                <a class="contact" href="#">EMS-тренировки</a>
+            </div>
+            <div class="contacts__about">
+                <a class="about__title" href="#bottom1">О компании</a>
+                <a class="contact" href="#">Вакансии</a>
+                <a class="contact" href="#">Пресса</a>
+                <a class="contact" href="#">Партнеры</a>
+                <a class="contact" href="#">Контакты</a>
+                <a class="contact" href="#">Рекламные возможности</a>
+            </div>
+            <div class="contacts__address">
+                <a class="address__title" href="#">Наши адреса</a>
+                <a class="contact" href="#">Зал-Кальварийская,4</a>
+                <a class="contact" href="#">Зал-Малинина,35</a>
+                <a class="contact" href="#">Почтовый адрес</a>
+                <a class="contact" href="#">Телефон</a>
+            </div>
+            <div class="contacts__icons">
+                <div class="icons">
+                    <a href="ttp://www.facebook.com"><img class="icons__f" src="../src/img/icons/F.svg" alt="academy_mma"></a> 
+                    <a href="http://www.twitter.com"><img class="icons__f1" src="../src/img/icons/twit.svg" alt="academy_mma"></a>
+                    <a href="http://www.youtube.com"><img class="icons__f" src="../src/img/icons/YouTube.svg" alt="academy_mma"></a>
+                    <a href="https://www.instagram.com"><img class="icons__f" src="../src/img/icons/Instagram.svg" alt="academy_mma"></a>
+                </div>
+                <p class="contact">Скачать приложение Academy MMA Belarus</p>
+                <div class="button">
+                    <a href="#"><img src="../src/img/googleplay.jpg" alt="academy_mma"></a>
+                    <a href="#"><img src="../src/img/appstore.jpg" alt="academy_mma"></a>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="#btnlogo"><img src="../src/img/logo-bg.png" alt="academy_mma"></a>
+            <p class="contact">Copyright © 2019-2022 – All Rights Reserved</p>
+        </div>
+    </footer>
+    <div class="btn__call container">
+        <button class="button">Заказать звонок</button>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/swiper.js"></script>  
+    <script src="../src/js/humburger.js"></script>  
+</body>
+</html>

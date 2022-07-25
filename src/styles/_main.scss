@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 904px;
+        margin: 0 auto;
+    }
+
+    html,
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 648px;
+        margin: 0 auto;
+    }
+
+    html,
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+}
